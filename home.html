@@ -1,0 +1,274 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>Chocolate</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: 'Roboto condensed', 'sans_serif';
+            }
+            :root{
+                background-color: white;
+            }
+            header{
+                position:fixed;
+                left:0;
+                right:0;
+                top:0;
+                width: 100%;
+                padding: 30px 8%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo{
+                font-size: 3rem;
+                text-transform: capitalize;
+                letter-spacing: 1px;
+            }
+            header nav a{
+                position: relative;
+                text-decoration: none;
+                text-transform: capitalize;
+                background-color: white;
+                font-size: 1.2rem;
+                letter-spacing: 0.5px;
+                margin-left: 35px;
+            }
+            header nav a:hover{
+                background-color: azure;
+                transition: .3s ease;   
+            }
+            header nav a:hover{
+            
+                background-color: brown;
+            }
+            section{
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                align-items: center;
+                padding: 08%;
+            }
+            .content{
+                max-width: 50rem;
+            }
+            .form{min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                align-items: center;
+                padding: 08%;
+
+
+            }
+            .title h2{
+                font-weight: bold;
+                text-transform: capitalize;
+                text-decoration: underline;
+                background-color: orangered;
+            }
+            .title p{
+                background-color: orange;
+            }
+            .Menu{
+                border: 1px solid black;
+                padding-top: 50px;
+                padding-right: 80px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+                font-weight: bold;
+                text-transform: capitalize;
+               background: orange;
+               justify-content: space-between;
+            }
+            .Menu h2{
+                text-decoration: underline;
+                background-color: orangered;
+            }
+            .title{border: 1px solid black;
+                padding-top: 50px;
+                padding-right: 80px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+                background-color: orange;
+                
+            }
+            .Register{border: 1px solid black;
+                padding-top: 50px;
+                padding-right: 80px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+
+            }
+            body{
+                background-color: bisque;
+            }
+            .Register h2{
+                background-color: orangered;
+            }
+            .Register {
+                background-color: orange;
+            }
+            .Home h2{
+                background-color: orangered;
+            }
+            .Home p{
+                background-color: orange;
+            }
+    
+
+        
+        </style>
+    </head>
+    <main>
+    <section id="Home">
+        <div class="Home">
+        <h2> Information about chocolate</h2>
+        <p>There is nothing any better than a good piece of chocolate. Science has found that there are some good reasons to eat and enjoy good pieces of chocolate. They have findings to prove that it acts as an antioxidant because of the flavonoids, lowering blood pressure, in turn benefiting the heart. Milk chocolate and dark chocolate taste good. They both stimulate endorphins, the pleasure feelings. They both have a type of serotonin, a form of anti-depressant. Both milk chocolate and dark chocolate are stimulants; that is because of the theobromine found in caffeine. Even parts of the fats in chocolate are converted into mono-unsaturated fats thanks to the liver.</p>
+        </div>
+        </div>
+    </section>
+    </main>
+    <body>
+        <header>
+            <h1 class="logo"><span>Chocolate</span></h1>
+            
+                 <nav>
+                        <a href="#home">Home</a>
+                        <a href="#About">about</a>
+                        <a href="#Menu">menu</a>
+                        <a href="#Contact">contact</a>
+                        <a href="# Register">Register </a>
+                 </nav>   
+        </header>
+        <main>
+            <section id="Contact">
+                <div class="container">
+                    <div class="title">
+                        <h2>Information about a chocolate shop</h2>
+                        <p>The store was opened 10 years ago
+                            We offer the best productsThe store is open from 9 am to 8 pm
+                            Location of a store in Alexandria, Al-Asawy Street,We deal with the best factories
+                            You offer discounts every month
+                            And there is a special service</p>
+                    </div>
+                    <div class="about_content">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <Main>
+            <section id="Menu">
+                <div class="Menu">
+                    <table>
+                        <tr>
+                            <th> <h2>Name </h2></th>
+                            <th><h2>price</h2></th>
+                        </tr>
+                        <tr>
+                            <td>MORO</td>
+                            <td>30</td>   
+                        </tr>
+                        <tr>
+                            <td>KITKAT</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>MARS</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>SNICKERS</td>
+                            <td>43</td>
+                        </tr>
+                        <tr>
+                            <td>bueno</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>KINDER</td>
+                            <td>45</td>
+                            
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </Main>
+        <main>
+            <section id="Contact">
+                <div class="container">
+                    <div class="title">
+                        <h2>Contact Form</h2>
+                        <br>
+                        <label for="textbox1">Full name:</label>
+                        <input id="textbox1" type="text" name="Full name" placeholder="" required>
+                        <br>
+                        <label for="passbox1">Phone:</label>
+                        <input id="passbox1" type="int" name="Phone">
+                        <br>
+                        <label for="Email"> Email:</label>
+                        <input id="email" type="email" placeholder="@gmail.com" required>
+                        <br>
+                        <label for="textbox2">Message:</label>
+                        <input id="textbox2" typy="text" name="Mwssage">
+                        <br>
+                        <label for="Male1">Male:</label>
+                        <input id="Male1" type="radio" name="male_or_female" value="Male">
+                        <br>
+                        <label for="female">Female</label>
+                        <input id= "Female" type="radio" name="male_or_female" value="Female">
+                        <br>
+                        <button type="submit">Send Massage</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </div>
+            </section>
+        </main>  
+        <main>
+            <section id="contact">
+                <div class="container">
+                    <div class="Register ">
+                        <h2>Register</h2>
+                        <label for="textbox3">User name:</label>
+                        <input id="textbox3" type="text" name="Username" placeholder="Soha" required>
+                        <br>
+                        <label for="passbox1">Password:</label>
+                        <input id="passbox1" type="Password" name="pass" placeholder="1234" required>
+                        <button id="my_button">Show Password</button>
+                        <br>
+                        <label for="Email"> Email</label>
+                        <input id="email" type="email" placeholder="Soha@gmail.com" required>
+                        <br>
+                        <button type="submit">Long in</button>
+                        
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <script Scr="myfile.js">
+            var my_button= document.getElementById('my_button');
+            myinput = document.getElementById('my_input');
+            myButton.onclick = function (){
+                'use strict';
+                if(this.text.textContent === 'show password'){
+                    pmyinut.setAttribute('type','text');
+                    this.textContent='hide Password';
+                }
+                else{
+                    pmyinut.setAttribute('type','password');
+                    this.textContent='show Password';
+
+                }
+            };
+            
+        </script>  
+    </body>
+</html>
